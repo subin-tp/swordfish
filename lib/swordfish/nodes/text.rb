@@ -6,7 +6,7 @@ module Swordfish
 
       # Override Base append because a text node should never have children
       def append(node)
-        raise BadContentError
+        # raise BadContentError
       end
 
       def to_html
